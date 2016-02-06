@@ -39,7 +39,7 @@ h2 {
 
 #wrapper {
   padding: 140px 0 100px;
-  margin-right: 40px;
+  /*margin-right: 40px;*/
   }
 
 /*p,h3,h4,pre {
@@ -294,7 +294,7 @@ h3 {
 .callbacks_nav.next {
   left: auto;
   background-position: right top;
-  left:86.2%;
+  left:83%;
   }
 
 #slider3-pager a {
