@@ -117,7 +117,10 @@ $(function() {
              <a class="button" href="#home"><img class="img-responsive home_logo" src="images/Logo.jpg"></a>
         </div>
         <!-- Empty space -->
-        <div class="col-sm-3"></div>
+        <div class="col-sm-3">
+          <span class="email_link">
+        </span>
+        </div>
 
         <div class="col-sm-7">
             <div class="right_menu">
@@ -141,9 +144,16 @@ $(function() {
                 <img class="img-responsive art_image" src="images/art.png">
                 <p class="name_title first_name pull-right">Yolyanko</p>
                 <p class="name_title second_name pull-right">William</p>
+                
+                <!-- FOOTER LOGOS -->
+                <div class="rectangle_footer">
+                <!-- Email logo -->
+                  <a href="mailto:yolyanko@yahoo.com"><img class="email_logo img-responsive pull-left " src="images/footer_logos/mail.png"></a>
+                 <!-- Facebook logo -->
+                 <img class="facebook_logo img-responsive pull-left " src="images/footer_logos/facebook_icon.png">
+                </div>
               </div>
          </div>
-
           <div class="col-sm-8">
             <div id="wrapper">
               <div class="callbacks_container">
@@ -174,7 +184,8 @@ $(function() {
       <div class=" images" >
 
       <!-- carousel 1-->
-      <div class="modal fade bs-example-modal-lg" id="carousel_1" style="width:100%" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal fade bs-example-modal-lg" id="carousel_1" style="width:100%" tabindex="-1" role="dialog
+      " aria-labelledby="myLargeModalLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -337,9 +348,9 @@ $(function() {
           <div class="cuadrado hvr-grow-shadow">
             <img src="images/cosmic_nights_menu.jpg" class="img-responsive" alt="image_menu1">
              <div class="menu-caption">
-                <a data-toggle="modal" data-target="#carousel_1"><p class="cosmic_nights cosmic_caption">COSMIC NIGHTS</p></a>
+                <a class="link_carousel"data-toggle="modal" data-target="#carousel_1"><p class="cosmic_nights cosmic_caption">COSMIC NIGHTS</p></a>
 
-              <a data-toggle="modal" data-target="#basicModal"><p class="padding_author_text">AUTHOR TEXT</p></a>
+              <a class="link_carousel" data-toggle="modal" data-target="#basicModal"><p class="padding_author_text">AUTHOR TEXT</p></a>
              </div>
           </div>
         </div>
@@ -348,7 +359,7 @@ $(function() {
         <div class="col-sm-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <img src="images/recapitulation_menu.jpg" class="img-responsive" alt="image_menu2">
-            <div class="menu-caption padding-caption"> <a data-toggle="modal" data-target="#carousel_2"><p>RECAPITULATION</p></a></div>
+            <div class="menu-caption padding-caption"> <a class="link_carousel" data-toggle="modal" data-target="#carousel_2"><p>RECAPITULATION</p></a></div>
           </div>
         </div>
 
@@ -357,13 +368,13 @@ $(function() {
         <div class="col-sm-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <img src="images/engulfed_cathedral_menu.jpg" class="img-responsive" alt="image_menu1">
-            <div class="menu-caption padding-caption"><a data-toggle="modal" data-target="#carousel_3"><p>THE ENGULFED CATHEDRAL</p></a></div>
+            <div class="menu-caption padding-caption"><a class="link_carousel" data-toggle="modal" data-target="#carousel_3"><p>THE ENGULFED CATHEDRAL</p></a></div>
           </div>
         </div>
         <div class="col-sm-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <img src="images/expanded_menu.jpg" class="img-responsive" alt="image_menu1">
-            <div class="menu-caption padding-caption"><a data-toggle="modal" data-target="#carousel_4"><p>EXPANDED</p></a></div>
+            <div class="menu-caption padding-caption"><a class="link_carousel" data-toggle="modal" data-target="#carousel_4"><p>EXPANDED</p></a></div>
           </div>
         </div>
 

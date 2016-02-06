@@ -319,6 +319,34 @@ h3 {
   background-color: rgb(255,204,51);
 }
 
+.rectangle_footer{
+  position:absolute;
+  position:fixed;
+  top:40%;
+  width: 3%;
+  height: 30%;
+  background-color: rgb(255,204,51);
+  z-index: 2;
+  opacity: 0.8;
+}
+.email_logo{
+  position:absolute;
+  left:0.3%;
+  top:41%;
+  width:25px;
+  height:25px;
+  position:fixed;
+
+}
+.facebook_logo{
+  position:absolute;
+  left:0.3%;
+  top:46%;
+  width:30px;
+  height:30px;
+  position:fixed;
+}
+
 .fullscreen-bg__video,
 .section6{
   /* Firefox */
@@ -429,6 +457,10 @@ margin-bottom: 8px;
 /*Points with a hand without specify a href*/
 a:hover {
  cursor:pointer;
+}
+a.link_carousel:hover{
+  /*outline: none;*/
+  text-decoration: none;
 }
 
 
@@ -587,8 +619,8 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .fullscreen-bg {
     background: url('../img/videoframe.jpg') center center / cover no-repeat;
   }
-
+/*
   .fullscreen-bg__video {
     display: none;
-  }
-}*/
+  }*/
+
