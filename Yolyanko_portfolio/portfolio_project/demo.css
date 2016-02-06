@@ -436,16 +436,13 @@ a:hover {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
-
+a.right.carousel-control,a.left.carousel-control{
+ background-image: none; 
+}
 .section2,.section1,.section5{
   height:100vh;
 }
 
-
-
-/*.section5{
-  background-color:rgb(51,102,153);
-}*/
 
  .fullscreen-bg {
   position: fixed;
@@ -515,6 +512,8 @@ height: auto;
 /*.iframe{
   padding-bottom: 70px;
 }*/
+
+/*Section 5*/
 .bigtext {
   margin-top: 60px;
   display: block;
