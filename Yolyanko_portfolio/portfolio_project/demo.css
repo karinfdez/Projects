@@ -421,11 +421,11 @@ margin-bottom: 8px;
 }
 /*Fixed the background when modal is open*/
 /*but junp to the beginning of page*/
-body.modal-open {
+/*body.modal-open {
     overflow: hidden;
     position:fixed;
     width: 100%;
-}
+}*/
 /*Points with a hand without specify a href*/
 a:hover {
  cursor:pointer;
@@ -436,6 +436,7 @@ a:hover {
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
+/*Removes shadow from borders in carousel*/
 a.right.carousel-control,a.left.carousel-control{
  background-image: none; 
 }
@@ -479,6 +480,7 @@ height: auto;
   /*width:auto;*/
   /*margin: 0 auto;*/
   padding: 0 120px;
+  background-color: rgb(225,232,234);
   /*background-color: rgb(51,102,153);*/
 }
 
