@@ -100,6 +100,14 @@ $(function() {
   });
 });
 
+// Add class modal open when modal is open.
+// This let apply css to modal-open.
+  $("#myModal").on("show", function () {
+  $("body").addClass("modal-open");
+}).on("hidden", function () {
+  $("body").removeClass("modal-open")
+});
+
 
     </script>
   </head>
@@ -211,9 +219,9 @@ $(function() {
           <div class="cuadrado hvr-grow-shadow">
             <img src="images/cosmic_nights_menu.jpg" class="img-responsive" alt="image_menu1">
              <div class="menu-caption">
-                <a href="#" data-toggle="modal" data-target=".bs-example-modal-lg"><p class="cosmic_nights cosmic_caption">COSMIC NIGHTS</p></a>
+                <a data-toggle="modal" data-target=".bs-example-modal-lg"><p class="cosmic_nights cosmic_caption">COSMIC NIGHTS</p></a>
 
-              <a href="#" data-toggle="modal" data-target="#basicModal"><p class="padding_author_text">AUTHOR TEXT</p></a>
+              <a data-toggle="modal" data-target="#basicModal"><p class="padding_author_text">AUTHOR TEXT</p></a>
              </div>
           </div>
         </div>
@@ -241,11 +249,11 @@ $(function() {
             <div class="modal-content">
                 <div class="modal-header">
                 <!-- <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&amp;times;</button> -->
-                <h4 class="modal-title" id="myModalLabel"> My Cosmic Nights</h4>
+                <h4 class="modal-title english_text" id="myModalLabel"> My Cosmic Nights</h4>
                 </div>
                 <div class="modal-body">
                     
-                    <p class="text_modal">
+                    <p class="text_modal english_text">
                       Some years ago when I was preparing my first independent animated film (La catedral sumergida, 2007) utilizing a series of drawings that I had developed very intuitively, several friends recommended some books on occultism, myths and symbolism. I found one of them especially fascinating. It was the Tibetan text Cosmic Evolution: Seven Stanzas of Dzyan, a work discovered and made known to the world by the theosophist Helena Blavatsky (1). It is said that The Stanzas of Dzyan is the oldest cosmogonic text known to man that describes the evolutionary life of humanity and its transit through various stages of development.<br><br>
 
                       In one of her books, The Secret Doctrine, Blavatsky reveals how those different stages were produced, seven in all. The first period was of Saturn, relating to the mineral world. The second corresponded to the Solar, transiting to plant life. Next came the Lunar, developing the animal kingdom. The fourth period is the Terrestrial, where we find ourselves today. In between each period there was a “recapitulation” of the prior Worlds. These intervals were called: “Cosmic Nights.”<br><br>
@@ -260,7 +268,7 @@ $(function() {
                       Yolyanko William Notes<br><br>
                       (1) In 1888 Helena Blavatsky (1831-1891) published the work “The Secret Doctrine, the Synthesis of Science, Religion and Philosophy” in two volumes.<br>
                       (2) “This thy present Wheel”, said the Flame to the Spark. “Thou art myself, my image and my shadow. I have clothed myself in thee, and thou art my Vâhan to the Day “Be With Us “, when thou shalt re-become myself and others, thyself and me”. Then the Builders, having donned their first Clothing, descent on radiant Earth and reign over men -- who are themselves. (Stanza 7-7.”Cosmic Evolution: Seven Stanzas from the Secret Book of Dzyan”).<br>
-                      (3) After the passing of the third Cosmic Night and when humanity awoke in the fourth Terrestrial period, it transited through several Epochs before arriving at the present. Those Epochs recapitulated the prior periods and the human race was assisted by representatives from each one of them; thus, among us lived our “older brothers” such as the Thrones, the Cherubs and the Seraphim. Those Epochs were called: 1- Polarean (mineral), 2- Hyperborean (plant), 3- Lemurian (animal), 4-Atlantean (Nibelungs or Children of the Mist).<br><br><br>
+                      (3) After the passing of the third Cosmic Night and when humanity awoke in the fourth Terrestrial period, it transited through several Epochs before arriving at the present. Those Epochs recapitulated the prior periods and the human race was assisted by representatives from each one of them; thus, among us lived our “older brothers” such as the Thrones, the Cherubs and the Seraphim. Those Epochs were called: 1- Polarean (mineral), 2- Hyperborean (plant), 3- Lemurian (animal), 4-Atlantean (Nibelungs or Children of the Mist).</p><br><br><br>
 
                      
 
@@ -284,7 +292,7 @@ $(function() {
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <div class="text-center"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div>
                     <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
                  </div>
              </div>
@@ -292,8 +300,8 @@ $(function() {
           </div>
       </div>
     </div>
-
-    <div class="section3 row" id="section2">
+    
+     <div class="section3 row" id="section2">
 
       <video loop muted autoplay poster="img/videoframe.jpg" class=" fullscreen-bg__video" id="bgvid">
         <!-- <source src="video/big_buck_bunny.webm" type="video/webm"> -->
@@ -302,7 +310,11 @@ $(function() {
        </video>
 
     </div>
-    <div class="section4 row" id="section3">
+    <div class="section3 row" id="section3">
+      <p>Here goes RESUME</p>
+
+    </div>
+    <div class="section4 row" id="section4">
          <div id="content">
            <blockquote class="bigtext">
               <p>The engulfed Cathedral</p>
@@ -551,9 +563,9 @@ $(function() {
               que ha bebido en las fuentes de la plástica universal, pero que tiene una respuesta de
               sólido valor identitario ante el dudoso esquema de supeditación de la llamada “periferia”
               y al continuo bombardeo de modelos por los centros de poder en las artes.
-              Pedro de Oraá (Cuba, 1931).</p>
+             </p>
 
-             <p class="last_text"> Poeta, narrador, ensayista, crítico de artes plásticas y pintor</p>qu
+             <p class="last_text">  Pedro de Oraá (Cuba, 1931).Poeta, narrador, ensayista, crítico de artes plásticas y pintor</p>
        
         </blockquote>
            <p class="expand"><img src="images/read_more.png"></p>

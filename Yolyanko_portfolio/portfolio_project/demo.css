@@ -13,17 +13,18 @@ body {
   _width: 70%;
   color: #888;
   font: 14px/20px Helvetica, Arial, sans-serif;
+  /*overflow: hidden;*/
   /*margin: 20px auto 0;*/
   /*max-width: 800px;*/
   text-align: center;
   -webkit-font-smoothing: antialiased;
   }
 
-  .container-fluid{
-    /*width: 100%*/
-    /*margin: auto;*/
-    /*padding: 0px;*/
-  }
+  /*.container-fluid{
+    width: 100%
+    margin: auto;
+    padding: 0px;
+  }*/
 
 h1 {
   font: 40px/60px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -410,6 +411,27 @@ margin-bottom: 8px;
   text-align: left;
 
 }
+.centered{
+  text-align: center;
+}
+/*Makes the window inside the modal scrollable*/
+.modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+/*Fixed the background when modal is open*/
+/*but junp to the beginning of page*/
+body.modal-open {
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
+/*Points with a hand without specify a href*/
+a:hover {
+ cursor:pointer;
+}
+
+
 .border{
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
@@ -418,9 +440,12 @@ margin-bottom: 8px;
 .section2,.section1,.section5{
   height:100vh;
 }
-.section5{
+
+
+
+/*.section5{
   background-color:rgb(51,102,153);
-}
+}*/
 
  .fullscreen-bg {
   position: fixed;
@@ -494,6 +519,7 @@ height: auto;
   margin-top: 60px;
   display: block;
   overflow: hidden;
+
   /*color: #787878;*/
 }
 blockquote { 
@@ -506,19 +532,19 @@ blockquote {
   color:rgb(51,102,153);
 }
 .last_text{
-  padding-bottom: 370px;
+  padding-bottom: 470px;
 }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 
 .expand, .contract {
   cursor: pointer;
   font-weight: bold;
-  padding-top:40px;
   margin-bottom: 0;
   text-align: center;
   color: #555;
-
-
+}
+.expand{
+ padding-top:30px;
 }
 .expand:hover, .contract:hover {
   color: #121212;
