@@ -263,7 +263,7 @@ h3 {
     text-align: center;
     width: 725px;
   }
-  .caption,.bigtext{
+  .caption,.bigtext,.text_modal{
      font-family: 'Lora', serif;
   }
 .bold_text{
@@ -378,6 +378,7 @@ position: absolute;
   padding-top: 30px;
   font-weight: bold;
 }
+/*Section */
 .cuadrado{
   /*margin-left: 30px;*/
   width:270px;
@@ -389,10 +390,26 @@ position: absolute;
 }
 .menu-caption{
   font-size: 20px;
-  padding-top: 20px;
   color:rgb(112,151,183);
+  padding-top: 10px;
 }
 
+.cosmic_nights{
+  border-bottom: 1px solid rgb(112,151,183);
+  padding-bottom: 5px;
+}
+.padding-caption{
+  padding-top: 25px;
+}
+.padding_author_text{
+margin-bottom: 8px;
+}
+
+.text_modal{
+  padding:0 10%;
+  font-color:rgb(48,49,49);
+
+}
 .section2,.section1,.section5{
   height:100vh;
 }
@@ -503,6 +520,8 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 .bigtext{
   text-align: left;
 }
+
+
 /*.hide {
   display: none;
 }*/
