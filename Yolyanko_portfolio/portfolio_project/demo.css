@@ -350,7 +350,7 @@ h3 {
   padding-top: 140px;
   padding-right: 34px;
 }
-.menu-caption,.name_title{
+.menu-caption,.name_title,.modal-title{
   font-family: 'Signika', sans-serif;
 }
 .name_title{
@@ -410,6 +410,11 @@ margin-bottom: 8px;
   text-align: left;
 
 }
+.border{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
 .section2,.section1,.section5{
   height:100vh;
 }
@@ -427,6 +432,7 @@ margin-bottom: 8px;
   /*overflow: hidden;*/
   /*z-index: -100;*/
 }
+
 
 /*.fullscreen-bg__video {
   position: absolute;
