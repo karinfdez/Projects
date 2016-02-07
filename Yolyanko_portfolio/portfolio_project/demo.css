@@ -346,6 +346,14 @@ h3 {
   height:30px;
   position:fixed;
 }
+.twitter_logo{
+  position:absolute;
+  left:0.3%;
+  top:51%;
+  width:30px;
+  height:30px;
+  position:fixed;
+}
 
 .fullscreen-bg__video,
 .section6{
