@@ -366,9 +366,11 @@
       </div>
     </div>
     <div class="section3 row" id="section3">
-      
-      <p>Here goes RESUME</p>
-
+     <div class="resume_text"> 
+       <p class="head_text line_spacing">Yolyanko William (Cuba.1975)</p>
+       <p class="size_text line_spacing"> Graduado de la escuela de Bellas artes 'San Alejandro". Pintor, dibujante y realizador audiovisual. Ha dirigido varios dibujos animados como "La Catedral sumergida" y "Ex-ergo".</p>
+       <p class="size_text line_spacing">Ha participado y alcanzado premios y menciones en festivales de cine internacionales, asi como muestras personales y colectivas de su obra grafica en diferentes galerias de Arte.</p>
+   </div>
     </div>
     <div class="section4 row" id="section4">
          <div id="content">
@@ -628,6 +630,8 @@
           <p class="contract hide"><img src="images/hide.png"></p>
         </div>
       </div>
+        <div class="section6 row" id="section5"></div>
+
     </div>
     </div>
 
@@ -647,18 +651,15 @@
                 $('.events').append("<li>after event fired.</li>");
               }
             });
-
           });
-
         $('#basicModal').on('shown.bs.modal', function () {
       $('#myInput').focus()
     })
      
     // Jump to different section when link is clicked.
-
     $(function() {
         
-        $(".button").on("click", function( e ) {
+        $(".button").on("click", function( e ) {
             
             e.preventDefault();
         
@@ -670,7 +671,6 @@
             
     });
     // Expand and collapse text.
-
       $(function(){
       var animspeed = 950; // animation speed in milliseconds
       
@@ -682,7 +682,6 @@
       $blockquote.attr('data-miniheight',mini+'px');
       $blockquote.css('height',mini+'px');
       
-
       $('.expand').on('click', function(e){
         $text = $(this).prev();
         
@@ -703,7 +702,6 @@
         $(this).addClass('hide');
       });
     });
-
   
     $("#basicModal").on("show", function () {
         $("#section1").css('position', 'fixed');
@@ -721,7 +719,6 @@
     //     $("#section1").removeClass("modal-open")
     // });
   
-
     </script>
    
   </body>

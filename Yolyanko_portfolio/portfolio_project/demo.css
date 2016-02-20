@@ -265,7 +265,7 @@ h3 {
     text-align: center;
     width: 725px;
   }
-  .caption,.bigtext,.text_modal{
+  .caption,.bigtext,.text_modal,.resume_text{
      font-family: 'Lora', serif;
   }
 .bold_text{
@@ -341,6 +341,7 @@ h3 {
   margin-top:15px;
   width:23px;
   height:25px;
+  margin-left: 5px;
   /*position:fixed;*/
 
 }
@@ -360,6 +361,7 @@ h3 {
   margin-top:15px;
   width:30px;
   height:30px;
+  margin-left: 2px;
   /*position:fixed;*/
 }
 
@@ -486,7 +488,7 @@ a.link_carousel:hover{
 a.right.carousel-control,a.left.carousel-control{
  background-image: none; 
 }
-.section2,.section1,.section5{
+.section2,.section1,.section5,.section6{
   height:100vh;
   /*Putting minimum height to avoid overlapping*/
   min-height: 685px;
@@ -550,6 +552,25 @@ a.right.carousel-control,a.left.carousel-control{
   height:100vh;
   min-height: 685px;
 }
+#section3{
+  padding:0 160px;
+  position:relative;
+}
+.resume_text{
+  position:relative;
+  top:35%;
+}
+.line_spacing{
+  line-height: 120%;
+}
+.head_text{
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px; 
+}
+.size_text{
+  font-size: 25px;
+}
 /*.fullscreen-bg-video{
  width: 100%;
 height: auto;
@@ -561,9 +582,10 @@ height: auto;
   /*height:auto;*/
   /*width:auto;*/
   /*margin: 0 auto;*/
-  padding: 0 120px;
+  /*height:100vh;*/
+  padding: 43px 120px 0;
   background-color: rgb(225,232,234);
-   min-height: 685px;
+  min-height: 685px;
   /*background-color: rgb(51,102,153);*/
 }
 
