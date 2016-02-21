@@ -509,6 +509,10 @@ a.right.carousel-control,a.left.carousel-control{
   /*Putting minimum height to avoid overlapping*/
   min-height: 685px;
 }
+/*.carousel-inner {
+    height: 630px;
+    overflow: hidden;
+}*/
 
 
  video {
