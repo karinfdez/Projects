@@ -329,16 +329,21 @@ h3 {
   position:fixed;
   top:40%;
   width: 3%;
-  height: 30%;
   background-color: rgb(255,204,51);
   z-index: 2;
   opacity: 0.8;
+  height: 31%;
+}
+
+.email_logo,.facebook_logo,.twitter_logo,
+.tumbler_logo,.linkedin_logo{
+   margin-top:15px;
 }
 .email_logo{
   /*position:absolute;*/
   /*left:0.4%;*/
   /*top:41%;*/
-  margin-top:15px;
+ 
   width:23px;
   height:25px;
   margin-left: 5px;
@@ -349,21 +354,32 @@ h3 {
   /*position:absolute;*/
   /*left:0.3%;*/
   /*top:46%;*/
-  margin-top:15px;
-  width:30px;
-  height:30px;
+  width:31px;
+  height:31px;
   /*position:fixed;*/
 }
 .twitter_logo{
   /*position:absolute;
   left:0.3%;
   top:51%;*/
-  margin-top:15px;
   width:30px;
   height:30px;
   margin-left: 2px;
   /*position:fixed;*/
 }
+
+.tumbler_logo{
+  width:26px;
+  height:26px;
+  /*margin-left: 2px;*/
+}
+.linkedin_logo{
+  width:26px;
+  height:26px;
+   margin-left: 3px;
+}
+
+
 
 .fullscreen-bg__video,
 .section6{
