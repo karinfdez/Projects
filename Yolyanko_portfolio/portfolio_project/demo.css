@@ -338,6 +338,7 @@ h3 {
 .email_logo,.facebook_logo,.twitter_logo,
 .tumbler_logo,.linkedin_logo{
    margin-top:15px;
+   margin-left: -2px;
 }
 .email_logo{
   /*position:absolute;*/
@@ -346,9 +347,7 @@ h3 {
  
   width:23px;
   height:25px;
-  margin-left: 5px;
-  /*position:fixed;*/
-
+ 
 }
 .facebook_logo{
   /*position:absolute;*/
@@ -356,7 +355,8 @@ h3 {
   /*top:46%;*/
   width:31px;
   height:31px;
-  /*position:fixed;*/
+
+ 
 }
 .twitter_logo{
   /*position:absolute;
@@ -364,8 +364,7 @@ h3 {
   top:51%;*/
   width:30px;
   height:30px;
-  margin-left: 2px;
-  /*position:fixed;*/
+ 
 }
 
 .tumbler_logo{
@@ -376,7 +375,7 @@ h3 {
 .linkedin_logo{
   width:26px;
   height:26px;
-   margin-left: 3px;
+
 }
 
 
