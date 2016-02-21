@@ -519,6 +519,7 @@ a.link_carousel:hover{
 a.right.carousel-control,a.left.carousel-control{
  background-image: none; 
 }
+
 .section2,.section1,.section5,.section6{
   height:100vh;
   /*Putting minimum height to avoid overlapping*/
