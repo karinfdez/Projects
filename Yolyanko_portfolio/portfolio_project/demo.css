@@ -480,6 +480,10 @@ position: absolute;
 margin-bottom: 8px;
 }
 
+.carousel-caption{
+  padding-bottom: 0;
+}
+
 .text_modal{
   padding:0 5%;
   font-color:rgb(48,49,49);
