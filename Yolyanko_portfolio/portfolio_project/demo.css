@@ -208,7 +208,7 @@ h3 {
 .callbacks_container {
   margin-bottom: 50px;
   position: relative;
-  background-color:rgb(255,204,51);
+  background-color:white;
   width:100%;
   }
 
@@ -327,41 +327,34 @@ h3 {
 .rectangle_footer{
   /*position:absolute;*/
   position:fixed;
-  top:40%;
+  top:35%;
   width: 3%;
   background-color: rgb(255,204,51);
   z-index: 2;
   opacity: 0.8;
-  height: 31%;
+  height: 36%;
 }
 
 .email_logo,.facebook_logo,.twitter_logo,
-.tumbler_logo,.linkedin_logo{
+.tumbler_logo,.linkedin_logo,.google_logo{
    margin-top:15px;
    margin-left: -2px;
 }
 .email_logo{
-  /*position:absolute;*/
-  /*left:0.4%;*/
-  /*top:41%;*/
  
   width:23px;
   height:25px;
  
 }
 .facebook_logo{
-  /*position:absolute;*/
-  /*left:0.3%;*/
-  /*top:46%;*/
+  
   width:31px;
   height:31px;
 
  
 }
 .twitter_logo{
-  /*position:absolute;
-  left:0.3%;
-  top:51%;*/
+  
   width:30px;
   height:30px;
  
@@ -376,6 +369,11 @@ h3 {
   width:26px;
   height:26px;
 
+}
+
+.google_logo{
+  width:29px;
+  height:29px;
 }
 
 
