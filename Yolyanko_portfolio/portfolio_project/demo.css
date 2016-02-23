@@ -265,7 +265,8 @@ h3 {
     text-align: center;
     width: 725px;
   }
-  .caption,.bigtext,.text_modal,.resume_text{
+  .caption,.bigtext,.text_modal,.resume_text,
+  .carousel-caption{
      font-family: 'Lora', serif;
   }
 .bold_text{
@@ -482,6 +483,8 @@ margin-bottom: 8px;
 
 .carousel-caption{
   padding-bottom: 0;
+  color: rgb(63,104,153);
+  text-shadow: none;
 }
 
 .text_modal{
