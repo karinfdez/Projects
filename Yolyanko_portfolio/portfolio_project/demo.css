@@ -415,23 +415,25 @@ h3 {
   font-family: 'Signika', sans-serif;
 }
 .name_title{
-  font-size: 70px;
+  font-size: 20px;
 }
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .name_title{
     font-size: 40px;
   }   
 }
 @media screen and (min-width: 992px) {
   .name_title{
-    font-size: 80px;
-  }   
+    font-size: 60px;
+}   
+  
 }
+/*Large size, regular laptop*/
 @media screen and (min-width: 1200px) {
   .name_title{
-    font-size: 120px;
+    font-size: 70px;
   }   
-}*/
+}
 
 .first_name,.second_name{
   color: rgb(51,102,153);

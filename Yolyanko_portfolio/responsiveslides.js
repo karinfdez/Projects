@@ -332,14 +332,15 @@
               return;
             }
 
-            //  Adds active class during slide animation
-            //  $(this)
-            //    .addClass(namespace + "_active")
-            //    .delay(fadeTime)
-            //    .queue(function (next) {
-            //      $(this).removeClass(namespace + "_active");
-            //      next();
-            //  });
+            // Removed the commented part of this.
+             Adds active class during slide animation
+             $(this)
+               .addClass(namespace + "_active")
+               .delay(fadeTime)
+               .queue(function (next) {
+                 $(this).removeClass(namespace + "_active");
+                 next();
+             });
 
             // Determine where to slide
             var idx = $slide.index($visibleClass),
