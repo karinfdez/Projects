@@ -40,7 +40,10 @@ h2 {
 
 
 
-
+#wrapper {
+  padding: 25% 0 100px;
+  /*margin-right: 40px;*/
+  }
 
 /*p,h3,h4,pre {
   text-align: left;
@@ -72,8 +75,6 @@ h2 {
 }
    .art_image{
     position: absolute;
-    left: 10%;
-    top: 75%;
     opacity: 0.5;
   }
 
@@ -109,9 +110,9 @@ a.remove_effect:active{
   left: 260px;
   top: 139px;*/
   position:relative;
-  top:20%;
+  /*top:20%;
   width: 35%;
-  height: 35%;
+  height: 35%;*/
 
  /* left: 63%;
   top: 36%;*/
@@ -750,51 +751,47 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
    @media screen and (min-width: 768px) {
   /*Section 1*/
- 
+  .name_title{
+    font-size: 70px;
+  }  
   .section1,.section2,.section3,.section4.section5,.section6{
       min-height: 1024px;
   }
-  .portfolio_picture {
+   .portfolio_picture {
     /* position: absolute; */
-    position: relative;
     top: 110px;
     width: 20%;
     height: 20%;
     float: left!important;
     left: 52px;
   }
-  #wrapper {
+
+   #wrapper {
     position:relative;
     left:5%;
     padding-top: 10%;
     width:90%;
-  }
+   }
 
-  .callbacks img {
-    height:500px;
-  }
-  .art_image {
-    position: absolute;
+    .art_image {
+
     left: 25%;
     top: 50%;
-    opacity: 0.5;
     width: 70%;
   }
-  .first_name {
+
+   .first_name {
     /*position: absolute;*/
     /*z-index: 3;*/
-    left: 33%;
-    top: 80%;
+    left: 29%;
+    top: 78%;
   }
   .second_name {
    /* position: absolute;
     z-index: 3;*/
-    left: 33%;
+    left: 30%;
     top: 89%;
   }
-   .name_title{
-    font-size: 70px;
-  }  
 
 }
 /* Ipad on landscape */
@@ -818,6 +815,28 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
       top: 30%;
     }
 
+    .portfolio_picture{
+ 
+      top:20%;
+      width: 35%;
+      height: 35%;
+      float: right!important;
+
+    }
+
+
+  .first_name{
+    position: absolute;
+    z-index: 3;
+    left: 45%;
+  }
+  .second_name{
+    position: absolute;
+    z-index: 3;
+    left: 54%;
+    top: 109%;
+  }
+
     /*Section 2*/
     .cuadrado{
       height: 380px;
@@ -839,14 +858,24 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
    .padding-videos{
     margin-top: 25%;
   }
-  #wrapper {
-    position:relative;
-    /*left:5%;*/
-    /*padding-top: 10%;*/
+   .art_image{
+    left: 18%;
+    top: 76%;
     width:100%;
-    padding: 25% 0 100px;
-  /*margin-right: 40px;*/
   }
+  .first_name{
+    position: absolute;
+    z-index: 3;
+    left: 55%;
+    top:100%;
+  }
+  .second_name{
+    position: absolute;
+    z-index: 3;
+    left: 63%;
+    top: 105%;
+  }
+
 
 }
 
@@ -877,9 +906,31 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .padding-videos{
     margin-top: 19%;
   }
-  #wrapper {
-  padding: 25% 0 100px;
-  /*margin-right: 40px;*/
+  .portfolio_picture{
+ 
+  top:20%;
+  width: 35%;
+  height: 35%;
+
+  }
+
+  .art_image{
+   left: 17%;
+    top: 75%;
+    width:100%;
+  }
+
+  .first_name{
+    position: absolute;
+    z-index: 3;
+    left: 45%;
+    top:100%;
+  }
+  .second_name{
+    position: absolute;
+    z-index: 3;
+    left: 54%;
+    top: 109%;
   }
 
 }
