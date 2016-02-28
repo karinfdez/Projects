@@ -793,6 +793,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     top: 89%;
   }
 
+  .callbacks img {
+    height:500px;
+  }
+
   /*Section 2*/
 
   .cuadrado{
@@ -810,6 +814,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   }
   .level2{
     margin-top: 20px;
+  }
+
+  .section4{
+    height:100vh;
   }
 
 
@@ -844,18 +852,20 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
     }
 
-
-  .first_name{
+.first_name{
     position: absolute;
     z-index: 3;
-    left: 45%;
+    left: 55%;
+    top:100%;
   }
   .second_name{
     position: absolute;
     z-index: 3;
-    left: 54%;
-    top: 109%;
+    left: 63%;
+    top: 105%;
   }
+
+
 
     /*Section 2*/
     .cuadrado{
@@ -884,17 +894,16 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     top: 76%;
     width:100%;
   }
-  .first_name{
-    position: absolute;
-    z-index: 3;
-    left: 55%;
-    top:100%;
+
+  .callbacks img {
+    height:auto;
   }
-  .second_name{
-    position: absolute;
-    z-index: 3;
-    left: 63%;
-    top: 105%;
+
+  .img-width{
+    width:100%;
+    height:auto;
+     margin-top:0;
+    padding-top:0;
   }
 
 
@@ -955,5 +964,14 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     top: 109%;
   }
 
+  .callbacks img {
+    height:auto;
+  }
+  .img-width{
+    width:100%;
+    height:auto;
+    margin-top:0;
+    padding-top:0;
+  }
 }
 
