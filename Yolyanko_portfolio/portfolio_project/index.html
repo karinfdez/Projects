@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>YolyankoPortfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="keywords" content="Portfolio, Yolyanko, Art,Abstract,Drawing" />
     <meta name="description" content="Yolyanko's Portfolio." />
     <meta name="author" content="Yolyanko William">
@@ -29,16 +29,17 @@
 <body>
   <div class="container-fluid">
     <div class="row menu">
-        <div class="col-sm-2">
-             <a class="button" href="#home"><img class="img-responsive home_logo" src="images/Logo.jpg"></a>
+     <!-- col-sm for Ipad, col-lg for Mac laptop -->
+        <div class="col-xs-0 col-sm-3 col-md-0  col-lg-2">
+             <a href="#home"><img class="img-responsive home_logo" src="images/Logo.jpg"></a>
         </div>
         <!-- Empty space -->
-        <div class="col-sm-3">
+        <div class="col-xs-0 col-sm-0 col-md-0  col-lg-3">
           <span class="email_link">
         </span>
         </div>
-
-        <div class="col-sm-7">
+      
+        <div class="col-xs-0 col-sm-9 col-md-0 col-lg-7">
             <div class="right_menu">
               <spam class="test">|</spam><a class="button remove_effect test hvr-underline-from-center" href="#section1">GRAPHIC WORK</a><spam class="test">|</spam>
               <a class=" button hvr-underline-from-center remove_effect" href="#section2">VIDEO ART AND ANIMATIONS</a><spam class="test">|</spam>
@@ -50,9 +51,23 @@
     </div>
 
     <!-- SECTION 1: Section with name, picture and images -->
-    <div class="row section1" id="home">
+  <div class="row section1" id="home">
     <!--Images, name and picture-->
-         <div class="col-xs-12 col-sm-6 col-md-5  col-lg-4 name">
+     <!-- col-sm for Ipad, col-md for Ipad horizontal position, col-lg for Mac laptop -->
+<!-- FOOTER LOGOS -->
+    <div class="rectangle_footer">
+      <!-- Email logo -->
+        <a class="hvr-wobble-vertical" href="mailto:yolyanko@yahoo.com"><img class="email_logo img-responsive pull-left " src="images/footer_logos/mail.png"></a>
+       <!-- Facebook logo -->
+       <!-- Class to animate footer logos -->
+       <a class="hvr-wobble-vertical" id="show-option" title="facebook" href="https://www.facebook.com/yolyanko.arguelles" target="_blank"><img class="facebook_logo img-responsive pull-left " src="images/footer_logos/facebook_icon.png"></a>
+       <a class="hvr-wobble-vertical" href="https://twitter.com/fe224734395e45b" target="_blank"><img class="twitter_logo img-responsive pull-left " src="images/footer_logos/twitter_icon.png"></a>
+       <a class="hvr-wobble-vertical" href="https://www.tumblr.com/search/yolyanko" target="_blank"><img class="tumbler_logo img-responsive pull-left " src="images/footer_logos/tumblr.png"></a>
+        <a class="hvr-wobble-vertical" href="https://www.linkedin.com/pulse/yolyanko-yolyanko-william-5955169749867511808" target="_blank"><img class="linkedin_logo img-responsive pull-left " src="images/footer_logos/linkedin.png"></a>
+        <a class="hvr-wobble-vertical" href="https://plus.google.com/100973776274383053173/posts" target="_blank"><img class="google_logo img-responsive pull-left " src="images/footer_logos/google+.png"></a>
+         <a class="hvr-wobble-vertical" href="#" target="_blank"><img class="instagram_logo img-responsive pull-left " src="images/footer_logos/instagram.png"></a>
+    </div>
+         <div class="col-xs-12 col-sm-12 col-md-4  col-lg-4 name">
             <div class="row">
                 <img class="img-responsive portfolio_picture pull-right " src="images/Profile_Photo.jpg">
              </div>
@@ -60,23 +75,10 @@
                 <img class="img-responsive art_image" src="images/art.png">
                 <p class="name_title first_name pull-right">Yolyanko</p>
                 <p class="name_title second_name pull-right">William</p>
-                
-                <!-- FOOTER LOGOS -->
-                <div class="rectangle_footer">
-                <!-- Email logo -->
-                  <a class="hvr-wobble-vertical" href="mailto:yolyanko@yahoo.com"><img class="email_logo img-responsive pull-left " src="images/footer_logos/mail.png"></a>
-                 <!-- Facebook logo -->
-                 <!-- Class to animate footer logos -->
-                 <a class="hvr-wobble-vertical" id="show-option" title="facebook" href="https://www.facebook.com/yolyanko.arguelles"><img class="facebook_logo img-responsive pull-left " src="images/footer_logos/facebook_icon.png"></a>
-                 <a class="hvr-wobble-vertical" href="https://twitter.com/fe224734395e45b"><img class="twitter_logo img-responsive pull-left " src="images/footer_logos/twitter_icon.png"></a>
-                 <a class="hvr-wobble-vertical" href="https://www.tumblr.com/search/yolyanko"><img class="tumbler_logo img-responsive pull-left " src="images/footer_logos/tumblr.png"></a>
-                  <a class="hvr-wobble-vertical" href="https://www.linkedin.com/pulse/yolyanko-yolyanko-william-5955169749867511808"><img class="linkedin_logo img-responsive pull-left " src="images/footer_logos/linkedin.png"></a>
-                  <a class="hvr-wobble-vertical" href="https://plus.google.com/100973776274383053173/posts"><img class="google_logo img-responsive pull-left " src="images/footer_logos/google+.png"></a>
-                </div>
               </div>
          </div>
          <!-- Different sizes of columns for responsive design -->
-          <div class="col-xs-12 col-sm-6 col-md-7 col-lg-7">
+          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-7">
             <div id="wrapper">
               <div class="callbacks_container">
                 <ul class="rslides" id="slider4">
@@ -1415,7 +1417,7 @@
           </div>
       </div>
 
-        <div class="col-sm-3 sec2_images">
+        <div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
               <a class="link_carousel" data-toggle="modal" data-target="#carousel_1"><img src="images/cosmic_nights_menu.jpg" class="img-responsive" alt="image_menu1"></a>
              <div class="menu-caption">
@@ -1426,7 +1428,7 @@
         </div>
 
        
-        <div class="col-sm-3 sec2_images">
+        <div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <a class="link_carousel" data-toggle="modal" data-target="#carousel_2"><img src="images/recapitulation_menu.jpg" class="img-responsive" alt="image_menu2"></a>
             <div class="menu-caption padding-caption"> <a class="link_carousel" data-toggle="modal" data-target="#carousel_2"><p>RECAPITULATION</p></a></div>
@@ -1435,13 +1437,13 @@
 
 
     
-        <div class="col-sm-3 sec2_images">
+        <div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <a class="link_carousel" data-toggle="modal" data-target="#carousel_3"><img src="images/engulfed_cathedral_menu.jpg" class="img-responsive" alt="image_menu1"></a>
             <div class="menu-caption padding-caption"><a class="link_carousel" data-toggle="modal" data-target="#carousel_3"><p>THE ENGULFED CATHEDRAL</p></a></div>
           </div>
         </div>
-        <div class="col-sm-3 sec2_images">
+        <div class="col-xs-12 col-sm-8 col-md-3 col-lg-3 sec2_images">
           <div class="cuadrado hvr-grow-shadow">
             <a class="link_carousel" data-toggle="modal" data-target="#carousel_4"><img src="images/expanded_menu.jpg" class="img-responsive" alt="image_menu1"></a>
             <div class="menu-caption padding-caption"><a class="link_carousel" data-toggle="modal" data-target="#carousel_4"><p>EXPANDED</p></a></div>
@@ -1508,7 +1510,9 @@
      <div class="section3 row" id="section2">
       <div class="video-overlay">
         <div class="youtube-videos">
-         <iframe class="padding-videos"height="250" src="https://www.youtube.com/embed/mv8B8nmqFJk?rel=0" frameborder="0" allowfullscreen></iframe>
+          <iframe class="padding-videos" src="https://player.vimeo.com/video/45718261" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+        <!--  <iframe class="padding-videos" height="250" src="https://vimeo.com/45718261?rel=0" frameborder="0" allowfullscreen></iframe> -->
           <iframe class="padding-videos"height="250" src="https://www.youtube.com/embed/cOlF3jI6CTI?rel=0" frameborder="0" allowfullscreen></iframe>
            <iframe class="padding-videos"height="250" src="https://www.youtube.com/embed/IN6c4GJ6a1U?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
