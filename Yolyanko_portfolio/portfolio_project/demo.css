@@ -793,6 +793,26 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     top: 89%;
   }
 
+  /*Section 2*/
+
+  .cuadrado{
+    height: 420px;
+    width: 90%;
+    /*margin-bottom: 10%;*/
+  }
+  .sec2_images{
+    margin-top: 25px;
+  }
+
+ .img-width{
+    width:90%;
+    height:60%;
+  }
+  .level2{
+    margin-top: 20px;
+  }
+
+
 }
 /* Ipad on landscape */
 @media screen and (min-width: 992px) {
@@ -840,6 +860,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     /*Section 2*/
     .cuadrado{
       height: 380px;
+      width:100%;
     }
 
    /* .images{
@@ -895,6 +916,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
   .cuadrado{
     height: 460px;
+    width:100%;
   }
   .images{
     margin-top:8%;
