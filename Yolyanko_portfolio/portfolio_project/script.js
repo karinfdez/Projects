@@ -1,4 +1,4 @@
-
+        
           $(function () {
             // Slideshow 4
             $("#slider4").responsiveSlides({
@@ -33,7 +33,11 @@
         });
             
     });
+
+
     // Expand and collapse text.
+
+    
       $(function(){
       var animspeed = 950; // animation speed in milliseconds
       
@@ -67,6 +71,8 @@
       });
 
     });
+
+
 
 
 

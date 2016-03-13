@@ -19,11 +19,15 @@
     <link href='https://fonts.googleapis.com/css?family=BenchNine' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Signika:300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700' rel='stylesheet' type='text/css'>
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <script src="../responsiveslides.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="page_effects.js"></script>
+
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
 
@@ -32,27 +36,36 @@
 <body>
   <div class="container-fluid">
     <div class="row menu">
-     <!-- col-sm for Ipad, col-lg for Mac laptop -->
-        <div class="col-xs-0 col-sm-3 col-md-0  col-lg-2">
-             <a href="#home"><img class="img-responsive home_logo" src="images/Logo.jpg"></a>
-        </div>
-        <!-- Empty space -->
-        <div class="col-xs-0 col-sm-0 col-md-0  col-lg-3">
-          <span class="email_link">
-        </span>
-        </div>
-      
-        <div class="col-xs-0 col-sm-9 col-md-0 col-lg-7">
-            <div class="right_menu">
-              <spam class="test">|</spam><a class="button remove_effect test hvr-underline-from-center" href="#section1">GRAPHIC WORK</a><spam class="test">|</spam>
-              <a class=" button hvr-underline-from-center remove_effect" href="#section2">VIDEO ART AND ANIMATIONS</a><spam class="test">|</spam>
-              <a class=" button hvr-underline-from-center remove_effect" href="#section3">RESUME</a><spam class="test">|</spam>
-              <a class=" button hvr-underline-from-center remove_effect" href="#section4">PRESS</a><spam class="test">|</spam>
-              <a class=" button hvr-underline-from-center remove_effect" href="#section5">NEWS</a>
-            </div>
-        </div>
-    </div>
+      <div class="navbar menu navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+             <a href="#home"><img class="navbar-left" src="images/Logo.jpg"></a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <!-- This 3 icons are the lines for the collapsible button -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#section1" class=" button hvr-underline-from-center remove_effect"> GRAPHIC WORK</a></li>
+              <li><a href="#section2" class=" button hvr-underline-from-center remove_effect"> VIDEO ART AND ANIMATIONS</a></li>
+              <li><a href="#section3" class=" button hvr-underline-from-center remove_effect">  RESUME</a></li>
+              <li><a href="#section4" class=" button hvr-underline-from-center remove_effect">  PRESS</a></li>
+              <li><a href="#section5" class=" button hvr-underline-from-center remove_effect">NEWS</a></li>
 
+             <!--  <li><a href="#section2"><span class=" button hvr-underline-from-center remove_effect"> <span class="test">|</span> VIDEO ART AND ANIMATIONS </span></a></li>
+              <li><a href="#section3"><span class="test">|</span><span class=" button hvr-underline-from-center remove_effect"> RESUME </span></a></li>
+            <li><a href="#section4"><span class="test">|</span><span class=" button hvr-underline-from-center remove_effect"> PRESS </span></a></li>
+            <li><a href="#section5"><span class="test">|</span><span class=" button hvr-underline-from-center remove_effect"> NEWS </span></a></li> -->
+            </ul>
+          </div>
+        </div>
+       </div> 
+    </div>
+  </div>
     <!-- SECTION 1: Section with name, picture and images -->
   <div class="row section1" id="home">
     <!--Images, name and picture-->
@@ -115,7 +128,7 @@
         </div>
       </div>
     <!-- Section with 4 modal for artist's images -->
-    <div class="section2 row" id="section1">
+    <div class="section2 row" id="section1" id="home">
       <div class=" images" >
 
       <!-- carousel 1 cosmic_nights-->
@@ -1511,7 +1524,7 @@
       </div>
     </div>
     
-     <div class="section3 row" id="section2">
+     <div class="section3 row" id="section2" id="home">
       <div class="video-overlay">
         <div class="youtube-videos">
           <iframe class="padding-videos" src="https://player.vimeo.com/video/45718261" height="250" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -1528,7 +1541,7 @@
       <!-- </div> -->
       </div>
     </div>
-    <div class="section3 row" id="section3">
+    <div class="section3 row" id="section3" id="home">
      <div class="resume_text"> 
        <p class="head_text line_spacing">Yolyanko William (Cuba.1975)</p>
        <p class="size_text line_spacing"> Graduado de la escuela de Bellas artes 'San Alejandro". Pintor, dibujante y realizador audiovisual. Ha dirigido varios dibujos animados como "La Catedral sumergida" y "Ex-ergo".</p>
@@ -1536,6 +1549,7 @@
    </div>
     </div>
     <div class="section4 row" id="section4">
+       
          <div id="content">
            <blockquote class="bigtext">
               <p>The engulfed Cathedral</p>
@@ -1787,13 +1801,17 @@
              </p>
 
              <p class="last_text">  Pedro de Oraá (Cuba, 1931).Poeta, narrador, ensayista, crítico de artes plásticas y pintor</p>
-       
+      
         </blockquote>
-           <p class="expand"><img src="images/read_more.png"></p>
+
+          <p class="expand"><img src="images/read_more.png"></p>
           <p class="contract hide"><img src="images/hide.png"></p>
         </div>
       </div>
-        <div class="section6 row" id="section5"></div>
+
+      <div class="section6 row" id="section5">
+        <p>Content Here</p>
+      </div>
 
     </div>
     </div>
