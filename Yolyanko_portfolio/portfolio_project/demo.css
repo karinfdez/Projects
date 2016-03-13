@@ -573,6 +573,7 @@ a.right.carousel-control,a.left.carousel-control{
   background-size: cover;
 }
 
+
 .video-overlay {
  /*This way I can show an image with transparent color and add a yellow background*/
   background: url("images/draw_background.png") no-repeat center center fixed; 
@@ -841,6 +842,9 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .section4{
     height:100vh;
   }
+  .padding_video{
+  padding-top: 120px;
+}
 
 
 }
@@ -931,6 +935,9 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .level2{
     margin-top: 0;
   }
+  .padding_video{
+  padding-top: 120px;
+}
 
 
 }
@@ -1007,6 +1014,12 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     height:100vh;
     max-height: 600vh;
   }
+
+  /*Section3*/
+  .padding_video{
+  padding-top: 120px;
+}
+
   /*Section4*/
 
   .section4{
@@ -1016,6 +1029,14 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   height:100%;
  
   }
+  .padding-left{
+    padding-left:70px;
+  }
+  .padding-right{
+     padding-right:70px;
+  }
+
+
 }
 
 
