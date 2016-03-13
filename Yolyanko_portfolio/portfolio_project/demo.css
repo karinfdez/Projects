@@ -56,10 +56,10 @@ h2 {
   }
 
   .menu{
-      position: fixed;
+      /*position: fixed;*/
       z-index:4;
       background-color:#fff;
-      width:100%;
+      /*width:100%;*/
       box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .menu a{
@@ -84,11 +84,24 @@ h2 {
   float:right;
 }
 .right_menu a, .test{
-  font-size: 20px;
+  font-size: 25px;
   color:black;
+  margin-right:15px;
+  /*padding-bottom: 10px;*/
+ 
+}
+.navbar{
+  background-color:white;
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 a.remove_effect {
   text-decoration: none;
+
 }
 a.remove_effect:active{
   text-decoration: none;
@@ -101,6 +114,10 @@ a.remove_effect:active{
 .right_menu a:visited { 
     background-color: transparent;
 }
+
+
+
+
 
 .portfolio_picture{
   /*position: absolute;*/
@@ -434,6 +451,7 @@ h3 {
  
    float:left;
    margin-left: -10px;
+   height:auto;
   }
 
 /*Size for Ipad on Portrait*/
@@ -906,6 +924,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     padding-top:0;
   }
 
+  .level2{
+    margin-top: 0;
+  }
+
 
 }
 
@@ -973,5 +995,60 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     margin-top:0;
     padding-top:0;
   }
+
+  .level2{
+    margin-top: 0;
+  }
+  .section4{
+    height:100vh;
+  }
+  /*Section4*/
+
+  .section4{
+  /*display: block;*/
+  /*max-height: 5100px;*/
+  /*min-height:calc(100vh-60px);*/
+  /*height:auto;*/
+  /*width:auto;*/
+  /*margin: 0 auto;*/
+  /*height:100vh;*/
+  padding: 43px 120px 0;
+  background-color: rgb(225,232,234);
+  min-height: 685px;
+  /*background-color: rgb(51,102,153);*/
+}
+
+/*Section 5*/
+  /*Section 5*/
+.bigtext {
+  margin-top: 60px;
+  display: block;
+  overflow: hidden;
+
+  /*color: #787878;*/
+}
+
+blockquote { 
+  quotes: none; 
+  border: none;
+  min-height: 500px;
+  max-height: 720vh;
+}
+
+.english_text{
+  color:rgb(51,102,153);
+}
+.last_text{
+  padding-bottom: 470px;
+}
+
+.expand, .contract {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0;
+  text-align: center;
+  color: #555;
+}
+
 }
 
