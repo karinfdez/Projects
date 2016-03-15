@@ -1,4 +1,8 @@
-        
+$(document).ready(function(){
+  // Show image on modal
+    $('.materialboxed').materialbox();
+  });
+          
           $(function () {
             // Slideshow 4
             $("#slider4").responsiveSlides({

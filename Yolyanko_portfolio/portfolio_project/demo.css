@@ -92,6 +92,9 @@ h2 {
 .navbar{
   background-color:white;
 }
+.navbar-left{
+  float: left!important;
+}
 .navbar-default .navbar-nav>li>a {
     color: black;
     font-size: 20px;
@@ -283,7 +286,7 @@ h3 {
     width: 725px;
   }
   .caption,.bigtext,.text_modal,.resume_text,
-  .carousel-caption{
+  .carousel-caption,.materialbox-caption{
      font-family: 'Lora', serif;
   }
 .bold_text{
@@ -357,6 +360,7 @@ div#section1,div#section4,div#section3,div#section2,div#section5 {
   opacity: 0.8;
   height: 22em;
 }
+
 
 .email_logo,.facebook_logo,.twitter_logo,
 .tumbler_logo,.linkedin_logo,.google_logo,
@@ -660,6 +664,48 @@ height: auto;
   /*background-color: rgb(51,102,153);*/
 }
 
+/*Cosmic-nights section*/
+
+.section-color{
+    background-color: rgb(155,191,204);
+  }
+
+.cosmic-header{
+  padding-top:30px;
+}
+
+.cosmic-image{
+  width:100%;
+  height:100%;
+}
+.fixed-header{
+    position: fixed;
+    z-index: 3;
+    background-color: rgb(155,191,204);
+    width: 100%;
+}
+
+.left-footer{
+  left:0;
+}
+.padding-image{
+  padding-top:8px;
+}
+
+
+
+
+
+
+.materialbox-caption {
+    /* text-align: center; */
+    left: 0;
+    padding-top: 10px;
+}
+.top-letter{
+  z-index:10;
+}
+
 ul.collapsible {
   margin-top:40px;
 }
@@ -745,28 +791,8 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     }
   }
 
-
-/*@media (min-aspect-ratio: 1di6/9) {
-  .fullscreen-bg__video {
-    height: 300%;
-    top: -100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .fullscreen-bg__video {
-    width: 300%;
-    left: -100%;
-  }
-}
-@media (max-width: 767px) {
-  .fullscreen-bg {
-    background: url('../img/videoframe.jpg') center center / cover no-repeat;
-  }
-/*
-  .fullscreen-bg__video {
-    display: none;
-  }*/
+/*Cosmic nights section*/
+  
 
   @media(max-width:767px){
 
