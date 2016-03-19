@@ -499,7 +499,7 @@ position: absolute;
   padding-top: 10px;
 }
 .padding-title{
-  padding-top:10em;
+  padding-top:12em;
 }
 .cosmic_nights{
   border-bottom: 1px solid rgb(112,151,183);
@@ -785,6 +785,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 .hide {
   display: none;
 }
+
 
 @media screen and (max-width: 600px) {
   
