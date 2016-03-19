@@ -757,6 +757,11 @@ blockquote {
   min-height: 500px;
   max-height: 900vh;
 }
+
+ blockquote.bigtext {
+  border:none;
+}
+
 .english_text{
   color:rgb(51,102,153);
 }
@@ -785,6 +790,8 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 .hide {
   display: none;
 }
+
+
 
 
 @media screen and (max-width: 600px) {
