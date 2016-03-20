@@ -78,7 +78,6 @@ h2 {
   }
 
 
-
 .right_menu{
   float:right;
 }
@@ -791,6 +790,12 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   display: none;
 }
 
+.image-logo{
+  position:relative;
+  left: 3;
+  top:0;
+}
+
 
 
 
@@ -804,17 +809,18 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 /*Cosmic nights section*/
   
 
-  @media(max-width:767px){
+  /*@media(max-width:767px){
 
-  }
+  }*/
 
    @media screen and (min-width: 768px) {
   /*Section 1*/
   .name_title{
     font-size: 70px;
   }  
-  .section1,.section2,.section3,.section4.section5,.section6{
+  #home,.section1,.section2,.section3,.section4.section5,.section6{
       min-height: 1024px;
+      height:100vh;
   }
    .portfolio_picture {
     /* position: absolute; */
@@ -882,6 +888,12 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   padding-top: 120px;
 }
 
+.image-logo{
+  position:relative;
+  left: -10px;
+  top:0;
+}
+
 
 }
 /* Ipad on landscape */
@@ -890,9 +902,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     .name_title{
       font-size: 50px;
     }  
-    .section1,.section2,.section3,.section4.section5,.section6{
-      min-height: 780px;
+    #home,#section1,#section2,#section3,#section5{
+      min-height:769px;
+      height:100vh;
     }
+
 
     #wrapper{
       padding: 31% 0 100px;
@@ -914,18 +928,24 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
     }
 
-.first_name{
-    position: absolute;
-    z-index: 3;
-    left: 55%;
-    top:100%;
-  }
-  .second_name{
-    position: absolute;
-    z-index: 3;
-    left: 63%;
-    top: 105%;
-  }
+    .first_name{
+      position: absolute;
+      z-index: 3;
+      left: 55%;
+      top:100%;
+    }
+    .second_name{
+      position: absolute;
+      z-index: 3;
+      left: 63%;
+      top: 105%;
+    }
+
+    .image-logo{
+      position:relative;
+      left: 0;
+      top:0;
+    }
 
 
 
@@ -934,6 +954,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
       height: 380px;
       width:100%;
     }
+
 
    /* .images{
       margin-top:13%;
@@ -979,6 +1000,32 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   margin-top:0;
 }
 
+ .image-logo{
+    position:relative;
+    left:-10px;
+    top:0;
+  }
+
+  /*Section3*/
+    .padding-left{
+    padding-left:80px;
+  }
+  .padding-right{
+     padding-right:80px;
+  }
+  /*Section4*/
+  .section4{
+   min-height:769px;
+   height:100%;
+  }
+  /*Change size of content*/
+  blockquote { 
+  quotes: none; 
+  border: none;
+  min-height: 542px;
+  height:4550px;
+}
+
 
 }
 
@@ -986,6 +1033,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 @media screen and (min-width: 1200px) {
   
   /*Section 1*/
+  #home,#section1,#section2,#section3,#section5{
+      min-height: 685px;
+      height:100vh;
+    }
+
   .name_title{
     font-size: 70px;
   } 
@@ -1062,7 +1114,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
   /*Section4*/
 
-  .section4{
+  #section4{
   padding: 43px 120px 0;
   background-color: rgb(225,232,234);
   min-height: 685px;
@@ -1080,6 +1132,21 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     margin-top:0;
   }
 
+  .image-logo{
+    position:relative;
+    left:-10px;
+    top:0;
+  }
+
+
+/*Section 5*/
+  blockquote { 
+  quotes: none; 
+  border: none;
+  min-height: 500px;
+  height:100%;
+  /*max-height: 900vh;*/
+}
 
 }
 
