@@ -694,7 +694,9 @@ height: auto;
 }
 
 
-
+img.materialboxed.cosmic-image.padding-title.initialized.active {
+  padding-top: 0;
+}
 
 
 
