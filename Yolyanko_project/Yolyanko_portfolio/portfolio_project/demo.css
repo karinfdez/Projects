@@ -497,7 +497,7 @@ position: absolute;
   color:rgb(112,151,183);
   padding-top: 10px;
 }
-.padding-title{
+.first-row{
   padding-top:12em;
 }
 .cosmic_nights{
@@ -690,7 +690,7 @@ height: auto;
   left:0;
 }
 .padding-image{
-  padding-top:8px;
+  padding-top:30px;
 }
 
 
@@ -797,6 +797,15 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   left: 3;
   top:0;
 }
+
+.materialbox-caption {
+  margin-bottom:25%;
+}
+
+.first-recap{
+  margin-top:150px;
+}
+
 
 
 
@@ -922,6 +931,27 @@ on 4 sections*/
   left:43%;
 
 }
+
+img.padding-image.materialboxed.cosmic-image.initialized.active {
+    
+    padding-top: 0;
+}
+
+.changed-size{
+  height:206px;
+}
+
+.cosmic-header{
+  /*padding-top:60px;*/
+  margin-top: 50px;
+}
+
+.first-recap{
+  margin-top:150px;
+}
+
+
+}
 /* Ipad on landscape */
 @media screen and (min-width: 992px) {
     /*Section 1*/
@@ -942,7 +972,9 @@ on 4 sections*/
       padding-top: 20%;
     }
     .rectangle_footer{
-      top: 30%;
+    
+    top: 37%;
+
     }
 
     .portfolio_picture{
@@ -1060,6 +1092,28 @@ on 4 sections*/
   left:45%;
   
  }
+ .materialbox-caption {
+  margin-bottom:0;
+}
+
+img.padding-image.materialboxed.cosmic-image.initialized.active {
+    
+    padding-top: 0;
+}
+.changed-size{
+  height:206px;
+}
+
+.cosmic-header{
+  padding-top:40px;
+  width:80%;
+  height:80%;
+  margin-left:40px;
+}
+
+.first-recap{
+  margin-top:150px;
+}
 
 
 }
@@ -1189,6 +1243,36 @@ on 4 sections*/
   bottom:0;
   
  }
+ .materialbox-caption {
+  margin-bottom:0;
+}
+
+img.padding-image.materialboxed.cosmic-image.initialized.active {
+   
+    padding-top: 0;
+}
+
+.changed-size{
+  height:206px;
+}
+
+.cosmic-header{
+  padding-top:0;
+
+}
+
+.first_images{
+  padding-top:50px;
+}
+
+.first-recap{
+  margin-top:150px;
+}
+
+.first-engulf{
+  width:47%;
+  margin-left:120px;
+}
 
 }
 
