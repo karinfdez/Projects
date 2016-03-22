@@ -498,7 +498,7 @@ position: absolute;
   padding-top: 10px;
 }
 .first-row{
-  padding-top:12em;
+  padding-top:10em;
 }
 .cosmic_nights{
   border-bottom: 1px solid rgb(112,151,183);
@@ -683,7 +683,7 @@ height: auto;
     position: fixed;
     z-index: 3;
     background-color: rgb(155,191,204);
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .left-footer{
@@ -818,6 +818,19 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 .padding-expanded{
     margin-top:100px;
+  }
+
+  /*Hide the footer on phone size*/
+
+   .rectangle_footer {
+        display: none !important;
+    }
+
+  img.cosmic-header {
+    margin-top:50px;
+ }
+ .first-line{
+    padding-top: 25px;
   }
 
 
@@ -970,6 +983,14 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
 .padding-expanded{
     margin-top:120px;
   }
+
+ .first-line{
+    padding-top: 25px;
+  }
+
+  img.cosmic-header {
+    margin-top:50px;
+ }
 
 
 }
@@ -1145,6 +1166,14 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     margin-top:120px;
 }
 
+ .first-line{
+    padding-top: 25px;
+  }
+
+  img.cosmic-header {
+    margin-top:50px;
+ }
+
 
 }
 
@@ -1287,7 +1316,10 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
 }
 
 .cosmic-header{
-  padding-top:0;
+  padding-top: 20px;
+  margin-left: 29%;
+  margin-top: 40px;
+  padding-right: 320px;
 
 }
 
@@ -1308,6 +1340,13 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
   .padding-expanded{
     margin-top:100px;
   }
+
+  .first-line{
+    padding-top: 25px;
+  }
+  img.cosmic-header {
+    margin-top:50px;
+ }
 
 }
 
