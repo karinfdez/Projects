@@ -833,6 +833,12 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     padding-top: 25px;
   }
 
+  img.first-recap.materialboxed.cosmic-image.padding-title.first-engulf.initialized.active {
+    /* padding-top: 0; */
+    margin-top: 0;
+    margin-left: 0;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -905,6 +911,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     width: 90%;
     /*margin-bottom: 10%;*/
   }
+  img.img-responsive.img-width.level2 {
+    /* height: 80%; */
+    margin-top: 0;
+}
   .sec2_images{
     margin-top: 25px;
   }
@@ -992,7 +1002,9 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     margin-top:50px;
  }
 
-
+  img.cosmic-header {
+    width: 80%;
+}
 }
 /* Ipad on landscape */
 @media screen and (min-width: 992px) {
@@ -1136,6 +1148,14 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
  }
  .materialbox-caption {
   margin-bottom:0;
+}
+
+.row.fixed-header {
+    width: 90%;
+}
+
+.row.expanded-fixed{
+  width:100%;
 }
 
 img.padding-image.materialboxed.cosmic-image.initialized.active {
@@ -1311,6 +1331,11 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     padding-top: 0;
 }
 
+img.first-recap.materialboxed.cosmic-image.padding-title.first-engulf.initialized.active {
+    /* padding-top: 0; */
+    margin-top: 0;
+    margin-left: 0;
+}
 .changed-size{
   height:206px;
 }
