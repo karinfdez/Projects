@@ -581,7 +581,7 @@ a.right.carousel-control,a.left.carousel-control{
 
 .video-overlay {
  /*This way I can show an image with transparent color and add a yellow background*/
-  background: url("images/draw_background.png") no-repeat center center fixed; 
+  background: url("../images/draw_background.png") no-repeat center center fixed; 
   background-color: rgb(255,204,51);
   /*Adjust the size of the image to adjust to the screen*/
   -webkit-background-size: cover;
