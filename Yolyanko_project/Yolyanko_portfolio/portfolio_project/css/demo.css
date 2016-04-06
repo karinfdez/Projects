@@ -5,7 +5,7 @@
 
 html {
   
-  background-color:pink;
+  background-color:white;
  
 }
 
@@ -39,17 +39,6 @@ h2 {
 
 
 
-#wrapper {
-  padding: 25% 0 100px;
-  /*margin-right: 40px;*/
-  }
-
-/*p,h3,h4,pre {
-  text-align: left;
-  max-width: 540px;
-  margin: 0 auto 20px;
-  }*/
-
 .rslides {
   margin: 0 auto 40px;
   }
@@ -73,8 +62,10 @@ h2 {
   -webkit-transition: all .3s ease;
 }
    .art_image{
-    position: absolute;
-    opacity: 0.5;
+    margin: 0 auto -57px;
+    width: 17em;
+    /*top: 35%;*/
+    /*top: 35%;*/
   }
 
 
@@ -118,22 +109,10 @@ a.remove_effect:active{
 
 
 
-
-
 .portfolio_picture{
-  /*position: absolute;*/
-  /*width: 150px;
-  height: 150px;
-  position: absolute;
-  left: 260px;
-  top: 139px;*/
+  
   position:relative;
-  /*top:20%;
-  width: 35%;
-  height: 35%;*/
-
- /* left: 63%;
-  top: 36%;*/
+  
 }
 .names_row{
   padding-top: 70px;
@@ -282,7 +261,7 @@ h3 {
   }
   .caption{
     text-align: center;
-    width: 725px;
+    /*/width: 725px;*/
   }
   .caption,.bigtext,.text_modal,.resume_text,
   .carousel-caption,.materialbox-caption{
@@ -347,6 +326,7 @@ h3 {
 div#section1,div#section4,div#section3,div#section2,div#section5 {
   margin-bottom: 0;
 }
+
 
 .rectangle_footer{
   /*position:absolute;*/
@@ -466,24 +446,33 @@ div#section1,div#section4,div#section3,div#section2,div#section5 {
   color: rgb(51,102,153);
 }
 .first_name{
+  top: 70%;
   position: absolute;
-  z-index: 3;
-  left: 33%;
-}
-.second_name{
-position: absolute;
-  z-index: 3;
-  left: 43%;
-  top: 109%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+  font-size: 40px;
+  
 }
 
-.first_name{
-  font-weight: normal;
-}
 .second_name{
+   position: absolute;
+    z-index: 3;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+    top: 85%;
+    font-size: 40px;
+}
+
+/*.second_name{
   padding-top: 30px;
   font-weight: bold;
-}
+}*/
 .cuadrado{
   /*margin-left: 30px;*/
   width:100%;
@@ -616,33 +605,25 @@ a.right.carousel-control,a.left.carousel-control{
 /**/
 
 
-/*.fullscreen-bg-video {
-  position: absolute;
-  top: calc(300vh-180px);
-  left: 0;
-  right:0;
-  width: 100%;
-  height: auto;
-}*/
-.section3{
-  height:100vh;
-  min-height: 685px;
-}
 #section3{
-  padding:0 160px;
+  height:100vh;
   position:relative;
 }
-.resume_text{
-  position:relative;
-  top:35%;
-}
+
+.resume_text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
 .line_spacing{
   line-height: 120%;
 }
 .head_text{
   font-size: 30px;
   font-weight: bold;
-  padding-bottom: 20px; 
+  padding:0 10px;
+  /*padding-bottom: 20px; */
 }
 .size_text{
   font-size: 25px;
@@ -652,13 +633,7 @@ a.right.carousel-control,a.left.carousel-control{
 height: auto;
 }*/
 .section4{
-  /*display: block;*/
-  /*max-height: 5100px;*/
-  /*min-height:calc(100vh-60px);*/
-  /*height:auto;*/
-  /*width:auto;*/
-  /*margin: 0 auto;*/
-  /*height:100vh;*/
+ 
   padding: 43px 120px 0;
   background-color: rgb(225,232,234);
   min-height: 685px;
@@ -731,18 +706,6 @@ ul.collapsible {
   padding-top:40px;
 }
 
-/*.embed-responsive-16by9{
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    border: 2px inset;
-*/
-/*}*/
-/*.iframe{
-  padding-bottom: 70px;
-}*/
 
 /*Section 5*/
 .bigtext {
@@ -820,11 +783,6 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     margin-top:100px;
   }
 
-  /*Hide the footer on phone size*/
-
-   .rectangle_footer {
-        display: none !important;
-    }
 
   img.cosmic-header {
     margin-top:50px;
@@ -846,7 +804,81 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .callbacks_nav {
     top: 47%;
     }
+
+    /*Section 1 page*/
+
+     /*Hide the footer on phone size*/
+
+   .rectangle_footer {
+        display: none !important;
+    }
+    .portfolio_picture{
+      display:none;
+    }
+    .carousel-padding{
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+    .caption{
+    text-align: center;
+    /*width: 30px;*/
   }
+
+  .callbacks .caption{
+    font-size:10px;
+    margin-bottom: 0;
+  }
+  .section2{
+    height:100%;
+  }
+  .padding-images-phone{
+    padding-bottom:30px;
+  }
+  .phone-caption{
+    font-size:13px;
+  }
+  /*Section 2*/
+  .video{
+    width:80%;
+    height:80%;
+  }
+  .video-overlay {
+    padding-top:90px;
+  }
+  .video2,.video4{
+    padding-top:20px;
+  }
+  /*Section 3*/
+  #section3{
+      position:relative;
+      height:100vh;
+      padding:0 5px;
+   
+  }
+  .size_text{
+    font-size: 15px;
+    padding:0;
+    margin:0;
+  }
+  
+  .head_text{
+    padding-top:40px;
+  }
+
+  /*Section 4*/
+  #section4{
+    min-height: 100vh;
+   height:100%;
+   position:relative;
+   padding-right:0;
+   padding-left:0;
+  }
+  blockquote{
+    padding-top:30px;
+    font-size:15px;
+  }
+}
 
 /*Cosmic nights section*/
   
@@ -881,24 +913,32 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
    }
 
     .art_image {
-
+    position:absolute;
     left: 25%;
     top: 50%;
     width: 70%;
   }
+  .caption{
+    width:725px;
+  }
 
    .first_name {
-    /*position: absolute;*/
-    /*z-index: 3;*/
+    position: absolute;
+    z-index: 3;
     left: 29%;
     top: 78%;
   }
   .second_name {
-   /* position: absolute;
-    z-index: 3;*/
+    position: absolute;
+    z-index: 3;
     left: 30%;
     top: 89%;
   }
+
+  .rectangle_footer{
+    width:4%;
+  }
+
 
   .callbacks img {
     height:500px;
@@ -1026,10 +1066,13 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
       padding-top: 20%;
     }
     .rectangle_footer{
-    
+    width:3%;
     top: 37%;
 
     }
+    .caption{
+    width:600px;
+  }
 
     .portfolio_picture{
  
@@ -1085,6 +1128,7 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     margin-top: 25%;
   }
    .art_image{
+    position:absolute;
     left: 18%;
     top: 76%;
     width:100%;
@@ -1194,6 +1238,14 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     margin-top:50px;
  }
 
+/*Expanded page*/
+.row.first-line {
+  padding-top:50px;
+}
+/*Cosmic nights page*/
+.row.first-row {
+    padding-top: 160px;
+}
 
 }
 
@@ -1205,6 +1257,9 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
       min-height: 685px;
       height:100vh;
     }
+    .rectangle_footer {
+    width: 3%;
+    }
 
   .name_title{
     font-size: 70px;
@@ -1215,7 +1270,11 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     #wrapper{
     padding: 27% 0 100px;
   }
+  .caption{
+    width:625px;
+  }
 
+/*Section 2*/
   .cuadrado{
     height: 460px;
     width:100%;
@@ -1239,6 +1298,7 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
   }
 
   .art_image{
+    position:absolute;
    left: 17%;
     top: 75%;
     width:100%;
@@ -1273,6 +1333,9 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
   .section4{
     height:100vh;
     max-height: 600vh;
+  }
+  .padding-images-phone{
+    padding-bottom:0;
   }
 
   /*Section3*/
