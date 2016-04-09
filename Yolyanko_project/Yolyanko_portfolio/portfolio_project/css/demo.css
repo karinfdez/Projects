@@ -737,7 +737,7 @@ ul.collapsible {
 blockquote { 
   quotes: none; 
   border: none;
-  min-height: 500px;
+  min-height: 400px;
   max-height: 900vh;
 }
 
@@ -1004,23 +1004,30 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
   /*Section 4*/
   #section4{
-    min-height: 100vh;
+   min-height: 400px;
    height:100%;
    position:relative;
    padding-right:0;
    padding-left:0;
   }
-  blockquote{
-    /*padding-top:30px;*/
-    font-size:15px;
-    min-height: 350px;
-    height:20000px;
-  }
+ 
+
+   blockquote { 
+  quotes: none; 
+  border: none;
+  min-height: 320px;
+  height:12150px;
+  max-height:17000px;
+}
 .expand{
-  padding-top: 10px;
-  position:absolute;
-  bottom:0;
-  left:40%;
+  padding-top: 5px;
+  
+}
+/*.bigtext{
+  min-height:370px !important;
+}*/
+.last_text {
+    padding-bottom: 0;
 }
   
 /*Cosmic nights section*/
@@ -1172,13 +1179,17 @@ on 4 sections*/
    position:relative;
   }
 
-  /*Change size of content*/
-  blockquote { 
+
+blockquote { 
   quotes: none; 
   border: none;
+  /*This height is from content inside the blockquoute*/
   min-height: 852px;
-  height:6800px;
-}
+ /*Height when content is expanded*/
+  height:6757px;
+  
+ }
+
 .expand{
   padding-top: 0;
   position:absolute;
@@ -1386,7 +1397,7 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
   quotes: none; 
   border: none;
   min-height: 542px;
-  height:4600px;
+  height:4550px;
 }
 .expand{
   position:absolute;
@@ -1668,6 +1679,7 @@ img.first-recap.materialboxed.cosmic-image.padding-title.first-engulf.initialize
   }
   img.cosmic-header {
     margin-top:50px;
+    margin-left: 20%;
  }
 
 }
