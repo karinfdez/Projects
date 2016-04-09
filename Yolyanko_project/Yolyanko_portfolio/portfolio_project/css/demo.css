@@ -219,7 +219,7 @@ h3 {
   margin-bottom: 50px;
   position: relative;
   background-color:white;
-  top: -15px;
+  top: -27px;
   width:100%;
   }
 
@@ -413,7 +413,6 @@ div#section1,div#section4,div#section3,div#section2,div#section5 {
   
   background-color:rgb(155,191,204);
   padding-top: 45px;
-  
 }
 
 
@@ -481,13 +480,26 @@ div#section1,div#section4,div#section3,div#section2,div#section5 {
   font-weight: bold;
 }*/
 .cuadrado{
-  /*margin-left: 30px;*/
-  width:70%;
   margin-left: auto;
   margin-right: auto;
-  background-color:black;
-  height: 290px;
+  background-color: black;
+  height: 270px;
+  margin-top: 30px;
+  width:200px;
+  margin-bottom:20px; 
 
+}
+
+/*.image-cell{
+    height:80%;
+  }*/
+
+img.img-responsive.img-width.hide-cell {
+  height:80%;
+  width:100%;
+}
+.phone-captio{
+  padding-top:0;
 }
 .menu-caption{
   font-size: 20px;
@@ -498,11 +510,12 @@ div#section1,div#section4,div#section3,div#section2,div#section5 {
   padding-top:10em;
 }
 .cosmic_nights{
-  border-bottom: 1px solid rgb(112,151,183);
-  padding-bottom: 5px;
+  /*border-bottom: 1px solid rgb(112,151,183);
+  padding-bottom: 5px;*/
+  margin-bottom:0;
 }
 .padding-caption{
-  padding-top: 25px;
+  padding-top: 10px;
 }
 .padding_author_text{
 margin-bottom: 8px;
@@ -636,10 +649,7 @@ a.right.carousel-control,a.left.carousel-control{
 .size_text{
   font-size: 25px;
 }
-/*.fullscreen-bg-video{
- width: 100%;
-height: auto;
-}*/
+
 .section4{
  
   padding: 43px 120px 0;
@@ -805,6 +815,14 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     margin-left: 0;
 }
 
+.show-cell{
+  display:none !important;
+}
+.phone-caption{
+  font-size:15px;
+
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -830,6 +848,10 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
    .section1{
    min-height: 568px;
   }
+   .callbacks_container {
+        top: -15px;
+   
+      }
 
    #wrapper {
     /*position:absolute;
@@ -878,27 +900,45 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .section2{
     height:100vh;
     min-height:568px;
+    position:relative;
   }
 
   .images{
-    padding-top: 60px;
+    /*padding-top: 60px;*/
+  position: absolute;
+  top: 18%;
+  height: 100px;
+  margin-top: -18px; 
   }
-
+  
+  .menu-caption {
+    background-color: black;
+    height: 50px;
+  }
   .phone-caption {
-    font-size: 18px;
+    font-size: 12px;
  }
   .padding-images-phone{
     padding-bottom:30px;
   }
  
   .cuadrado{
-    
-    /*height:30px;*/
-
     width:100%;
     background-color: transparent;
     height: 40%;
     
+  }
+  .margin-non-cell{
+    padding-top:4px;
+  }
+  .cosmic_nights {
+    border-bottom: 1px solid rgb(112,151,183);
+    /*padding-bottom: 5px;*/
+    /*margin-bottom:5px;*/
+  }
+
+  .margin-cell{
+    margin-top:5px;
   }
   .padding-images-phone{
     padding-bottom:0;
@@ -910,6 +950,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     margin-right:0;
     clear:both;
     margin-bottom:20px;
+    display:block;
 
   }
   .hide-cell{
@@ -926,10 +967,14 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .video2,.video4{
     padding-top:20px;
   }
+  #section2{
+    height:100vh;
+    /*min-height:568px;*/
+  }
   /*Section 3*/
   #section3{
-      position:relative;
-      height:100vh;
+    position:relative;
+    height:100vh;
    
   }
   .size_text{
@@ -1037,10 +1082,15 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
   .cuadrado{
     height: 380px;
-    width: 70%;
+    width: 230px;
+    margin-top:0;
     /*margin-bottom: 10%;*/
   }
-
+  .cosmic_nights {
+    border-bottom: 1px solid rgb(112,151,183);
+    padding-bottom: 5px;
+    margin-bottom:5px;
+  }
   .show-cell{
     display:none !important;
   }
@@ -1048,9 +1098,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
     /* height: 80%; */
     margin-top: 0;
 }
-  .sec2_images{
-    padding-top: 70px;
-  }
+
+.padding-caption{
+  padding-top: 25px;
+}
+
 
  .img-width{
     width: 100%;
@@ -1069,6 +1121,17 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   left: -10px;
   top:0;
 }
+.section2{
+  position:relative;
+}
+
+.images{
+    /*padding-top: 60px;*/
+    position: absolute;
+    top: 15%;
+    height: 100px;
+    margin-top: -15px; 
+  }
 /*Move to top the caption from images
 on 4 sections*/
 .materialbox-caption {
@@ -1151,6 +1214,12 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
       height:100vh;
     }
 
+    .callbacks_container {
+        position: absolute;
+        top: 77%;
+   
+      }
+
     .names_row{
       padding-top: 70px;
     }
@@ -1208,10 +1277,25 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     .show-cell{
       display:none !important;
     }
+    .section2{
+      position:relative;
+    }
+    .padding-caption{
+    padding-top: 25px;
+   }
 
-   /* .images{
-      margin-top:13%;
-    }*/
+   .cosmic_nights {
+    border-bottom: 1px solid rgb(112,151,183);
+    padding-bottom: 10px;
+  }
+
+   .images{
+    /*padding-top: 60px;*/
+    position: absolute;
+    top: 30%;
+    height: 100px;
+    margin-top: -20px; 
+  }
     .modal-lg{
       width:900px;
     }
@@ -1219,9 +1303,7 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     .full_frame{
       margin-top: 80px;
     }
-    .images{
-    margin-top:12%;
-  }
+   
    .padding-videos{
     margin-top: 25%;
   }
@@ -1365,14 +1447,18 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
     }
 
 
-    .callbacks_container{
-      top:3px;
-    }
+  .callbacks_container {
+        position: absolute;
+        top: 78%;
+   
+      }
 
     .names_row{
     padding-top: 70px;
   }
-
+  .padding-caption{
+  padding-top: 25px;
+}
   .name_title{
     font-size: 70px;
   } 
@@ -1393,9 +1479,22 @@ img.padding-image.materialboxed.cosmic-image.initialized.active {
   .show-cell{
     display:none !important;
   }
-  .images{
-    margin-top: 4%;
+  .section2{
+      position:relative;
+    }
+
+   .images{
+    padding-top: 70px;
+    position: absolute;
+    top: 10%;
+    height: 100px;
+    margin-top: -10px; 
   }
+
+  .cosmic_nights {
+    border-bottom: 1px solid rgb(112,151,183);
+    padding-bottom: 5px;
+}
 
   .modal-lg{
     width:900px;
