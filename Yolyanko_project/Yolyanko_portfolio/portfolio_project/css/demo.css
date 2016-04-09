@@ -67,6 +67,7 @@ h2 {
     left: 25%;
     top: 40%;
     width: 60%;
+    opacity: 0.7;
   }
  #wrapper{
     margin-top: -150px;
@@ -824,7 +825,6 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 }
 
 
-
 @media screen and (max-width: 600px) {
   
   .callbacks_nav {
@@ -899,9 +899,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   /*Section 2*/
   .section2{
     height:100vh;
-    min-height:568px;
     position:relative;
   }
+  div#section2,div#section1{
+   min-height:568px;
+}
 
   .images{
     /*padding-top: 60px;*/
@@ -918,15 +920,18 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .phone-caption {
     font-size: 12px;
  }
-  .padding-images-phone{
-    padding-bottom:30px;
-  }
+ 
  
   .cuadrado{
     width:100%;
     background-color: transparent;
-    height: 40%;
+    height: 25%;
     
+  }
+
+  .col-xs-6.col-sm-6.col-sm-offset-0.col-md-3.col-lg-3.col-lg-offset-0.sec2_images
+  .padding-images-phone {
+    height:220px;
   }
   .margin-non-cell{
     padding-top:4px;
@@ -964,9 +969,19 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   .video-overlay {
     padding-top:90px;
   }
-  .video2,.video4{
-    padding-top:20px;
+
+
+  .video1,.video2,.video3,.video4{
+    height: 110px;
+
   }
+ .video3{
+  margin-top:0;
+ }
+ .video2{
+  margin-bottom:0;
+  padding-bottom:0;
+ }
   #section2{
     height:100vh;
     /*min-height:568px;*/
@@ -1007,14 +1022,23 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
   bottom:0;
   left:40%;
 }
-
-}
-/*Cosmic nights section*/
   
-
-  /*@media(max-width:767px){
-
-  }*/
+/*Cosmic nights section*/
+  .cosmic-header{
+    width: 110%;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+  div.materialbox-caption {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  /*Recapitulation section*/
+  img.cosmic-header {
+    margin-top: 60px;
+}
+}
+  
 
    @media screen and (min-width: 768px) {
   /*Section 1*/
